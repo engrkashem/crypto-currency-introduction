@@ -5,6 +5,7 @@ import BDAddress from './components/BDAddress/BDAddress';
 import CoinDetails from './components/CoinDetails/CoinDetails';
 import Coins from './components/Coins/Coins';
 import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import UKAddress from './components/UKAddress/UKAddress';
@@ -26,7 +27,7 @@ function App() {
         </Route>
         <Route path='/about' element={<About />}></Route>
       </Routes>
-
+      <Footer />
     </div>
   );
 }
