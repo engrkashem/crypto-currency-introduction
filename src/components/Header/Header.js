@@ -3,7 +3,7 @@ import CustomLink from '../CustomLink/CustomLink';
 
 const Header = () => {
     return (
-        <nav className='grid grid-cols-1 md:grid-cols-2 items-center px-10 py-4 bg-white'>
+        <nav className='grid grid-cols-1 md:grid-cols-2 items-center px-10 py-4 bg-white sticky top-0 z-10'>
             <div className='text-4xl font-semibold text-cyan-900'>
                 <h3>Crypto Bistro</h3>
             </div>
