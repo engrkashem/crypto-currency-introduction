@@ -8,7 +8,7 @@ import Home from './components/Home/Home';
 
 function App() {
   return (
-    <div className=" bg-slate-200 w-screen h-screen ">
+    <div className=" bg-slate-100  h-full ">
       <Header />
       <Routes>
         <Route path='/' element={<Home />}></Route>
